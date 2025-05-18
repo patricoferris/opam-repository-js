@@ -136,21 +136,6 @@ index 7bcc822..b34113b 100644
 -  -> crcs:(string * Digest.t option) list
 +  -> crcs:Import_info.t array
    -> Code.program
-diff --git a/lib/runtime/jsoo_runtime.ml b/lib/runtime/jsoo_runtime.ml
-index fde3efe..27824de 100644
---- a/lib/runtime/jsoo_runtime.ml
-+++ b/lib/runtime/jsoo_runtime.ml
-@@ -140,8 +140,8 @@ module Sys = struct
-       | "disabled" -> `Disabled
-       | "cps" -> `Cps
-       | "double-translation" -> `Double_translation
--      | _ -> assert false
--  end
-+      | s -> `Disabled
-+end
-
-   let version = Runtime_version.s
-
 diff --git a/runtime/js/capsule.js b/runtime/js/capsule.js
 new file mode 100644
 index 0000000..0c02acc
