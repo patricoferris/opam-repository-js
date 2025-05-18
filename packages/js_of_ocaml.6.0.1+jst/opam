@@ -77,7 +77,7 @@ patches: [
 extra-files: [
   [
    "js_of_ocaml-top-effects.patch"
-   "sha256=0ac121658c4004913731f0d3540dbf55da07652e88a707af13f0f8147ab4b124"
+   "sha256=638247bd3f7bacb99612353b29c0afdcc48598c5771a52602a96baabbc141370"
   ]
   [
    "js_of_ocaml-toplevel.patch"
