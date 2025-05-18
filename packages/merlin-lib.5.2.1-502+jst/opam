@@ -28,8 +28,8 @@ dev-repo: "git+https://github.com/ocaml/merlin.git"
 x-commit-hash: "0eaccc1b8520d605b1e00685e1c3f8acb5da534c"
 url {
   src:
-    "https://github.com/patricoferris/merlin-jst/archive/2c6ca717bdd1629e30a6172563976ff3acb0bbf4.tar.gz"
+    "https://github.com/patricoferris/merlin-jst/archive/ab93d4cc175e182f8091b9fee99b9faea308aa17.tar.gz"
   checksum:
-    "sha256=d519c4469a1c586fbc2b9d3287825e3df5948272650a715e973314c89ddea821"
+    "sha256=2edd7220fbf02e122916aeee510749ee4b8aadec713c2fd6891fdb2daac9734a"
 }
 
